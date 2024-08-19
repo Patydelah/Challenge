@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header class="letra__encabezado">
+        <img src="inspector.jpg" alt="un inpector pensando" class="encabezado__imagen-persona"/>  
+           Encripta o desencripta un mensaje
+    </header>
+    
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+               
+                <textarea type="character" id="valorUsuario" class="container__input"></textarea>
+                <div class="container__botones">
+                    <button onclick="Encriptar();" class="container__boton">Encriptar</button>
+                    <button onclick="Desencriptar();" class="container__boton">Desencriptar</button>
+                </div>
+                <div class="footer">teclee el texto en <strong>minusculas</strong></div>
+               
+            </div>
+        </div>
+        <div class="mensaje">
+
+            <span id="mensajeprueba" class="mensajeprueba"></span>
+        </div>
+    </div>
+   
+    <footer></footer>
+</body>
+</html>
